@@ -1,12 +1,12 @@
 # Taucharts One
 
-Can you remind a **charting library** with **simple API**, **fresh looking** and **highly performant**? I can remind one, the **Taucharts One**. The latest stable **release 1.2.2** can be dowloaded via [npm](https://www.npmjs.com/package/taucharts).
+Can you think of a **charting library** that **looks fresh**, has a **simple API**, and offers **high performance**? I can think of one: **Taucharts One**. The latest stable release (v.1.2.2) can be downloaded via [npm](https://www.npmjs.com/package/taucharts).
 
 Let's see what this new release comes with.
 
 ## Bar as span (Timeline) plugin
 
-**Timeline** chart is suitable for visualizing teams **progress**.
+**Timeline** charts are suitable for visualizing teams' **progress**.
 
 ![Timeline chart](taucharts-v1_timeline.png)
 
@@ -47,19 +47,19 @@ const chart = new tauCharts.Chart({
 
 ## Legend plugin improvements
 
-You can now **focus on a single element** or **toggle multiple elements** by clicking a color icon. Size and color gradient legents are now aligned horizontally to reduce consumed space. Highlighted elements will float over others.
+You can now **focus on a single element** or **toggle multiple elements** by clicking on the relevant color icons. Size and color gradient legends are now aligned horizontally to reduce the amount of space they consume. Highlighted elements will float over others.
 
 ![Crosshair plugin](taucharts-v1_legend.gif)
 
 ## Tooltip plugin improvements
 
-Highlighting of elements on chart has never been so **fast** and simple. It is also possible to highlight points that overlap each other. After element **click** additional **buttons** will appear on tooltip.
+Highlighting elements on a chart has never been so **fast** and simple. It is also possible to highlight points that overlap each other. **Clicking** on an element will reveal **additional options** in a tooltip.
 
 ![Crosshair plugin](taucharts-v1_tooltip.gif)
 
 ## Sparkline mode
 
-When chart size is **too small** or ticks density is too large, it's better to hide chart axes and grid.
+If chart size is **too small** or tick density is **too high**, then it's better to hide the chart's axes and grid.
 
 ![Sparkline mode](taucharts-v1_sparkline.png)
 
@@ -77,9 +77,9 @@ const chart = new tauCharts.Chart({
 });
 ```
 
-## Line with size improvements
+## Line chart improvements
 
-Line with **size** preserve it's width between points and now looks more consistent.
+Line charts that are encoded by **size** will now look more consistent by preserving the width between their points.
 
 ![Line with size](taucharts-v1_line-size.png)
 
@@ -121,7 +121,7 @@ const chart = new tauCharts.Chart({
 
 ## Non-blocking rendering
 
-Drawing of **Big Data** can be slow. To **prevent browser freeze**, several chart settings were introduced.
+Loading large amounts of data can be slow. To prevent your browser from lagging, several new chart settings have been introduced.
 
 ```javascript
 settings: {
@@ -132,11 +132,11 @@ settings: {
 }
 ```
 
-Setting `asyncRendering: true` will make a chart **render asynchronously** by small synchronous chunks, making a browser **more responsive** to user interactions. Read more about asynchronous rendering [here](https://github.com/TargetProcess/taucharts-docs/blob/master/advanced/performance.md).
+Setting `asyncRendering: true` will make your chart **render asynchronously** in small synchronous chunks. This has the benefit of making your browser **more responsive** to user interactions. Read more about asynchronous rendering [here](https://github.com/TargetProcess/taucharts-docs/blob/master/advanced/performance.md).
 
 ## TypeScript type definition
 
-Taucharts NPM package comes with d.ts **type definitions** and this enables **code completion** in TypeScript or JavaScript files (if IDE supports this feature) without any additional setup.
+Taucharts NPM package comes with d.ts **type definitions**. This enables automatic **code completion** in TypeScript and JavaScript files (if your IDE supports this feature) without any additional setup.
 
 ![Taucharts code completion](taucharts-v1_code-completion.png)
 
@@ -146,7 +146,7 @@ Thanks **[Juanjo Diaz](https://github.com/juanjoDiaz)** for **replacing Undersco
 
 ## And even more
 
-There were innumerous count of **improvements** and bug fixes. You can see the whole list [here](https://github.com/TargetProcess/tauCharts/releases/tag/1.0.0). Some notable changes are:
+There's countless additional **improvements** and bug fixes. You can see the whole list [here](https://github.com/TargetProcess/tauCharts/releases/tag/1.0.0). Some notable changes are:
 - UTC time scale, periods and formats (`settings.utcTime: true|false`).
 - Show line and area points (`guide.showAnchors: 'always'|'hover'|'never'`).
 - Smooth line and area interpolation, that doesn't exceed data points (`guide.interpolate: 'smooth-keep-extremum'|'smooth'|'linear'|'step'|'step-before'|'step-after'`).
@@ -154,7 +154,7 @@ There were innumerous count of **improvements** and bug fixes. You can see the w
 
 ## Taucharts 2
 
-**Taucharts v2** is about to be released, uses D3 v4 modules and brings **new features and improvements**.
+**Taucharts v2** will be released soon. It uses D3 v4 modules and will bring **new features and improvements**.
 
 ![Diff Tooltip plugin](taucharts-v2_diff-tooltip.png)
 
